@@ -16,6 +16,14 @@
 .article img.th:hover {
 	opacity: 1;
 }
+.panel p.clearing-caption {
+	color: white;
+}
+.panel.article{
+	background: none;
+	background-color: rgba(195,195,195,0.4);
+	margin-bottom: 0;
+}
 #firstPage {
 	background: url(../images/header.jpg) no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour Chrome et Safari */
@@ -24,7 +32,14 @@
 	background-size: cover; /* version standardisée */
 }
 #secondPage {
-	background: url(../images/pic01.jpg) no-repeat center fixed; 
+	background: url(../images/page1.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+#thirdPage {
+	background: url(../images/page2.jpg) no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour Chrome et Safari */
 	-moz-background-size: cover; /* pour Firefox */
 	-o-background-size: cover; /* pour Opera */
@@ -37,22 +52,21 @@
 	margin-top: 30vh;
 }
 .articleAlign {
-	margin-top: 10vh;
-
+	margin-top: 6vh;
 }
 h1.subheader.text-center.title {
 	font-size: 5em;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
-h1.subheader.text-center {
-	margin: 5vh auto 5vh auto;
+h1.subheader.text-center, h1.subheader.text-left {
+	margin: 3vh auto 5vh auto;
 	font-size: 3em;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
 h1.subheader.text-center strong {
-	color: rgb(195,195,195);
+	color: rgb(65,65,65);
 }
 h3.subheader.text-center {
 	font-size: 2em;
@@ -77,14 +91,24 @@ a.button.radius.arrowLink:hover {
 i.fa.fa-arrow-down.fa-2x {
 	color: white;
 }
-
-img[alt="Profil"] {
-	border-radius: 50%;
-	border: 1px solid transparent;
+.circular {
 	width: 150px;
-	height: 160px;
-	box-shadow: 6px 6px 8px grey;
-	margin-bottom: 5vh;
+	height: 150px;
+	border: 1px solid black;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	margin: 0 auto 5vh auto;
+	-webkit-box-shadow: 4px 4px 8px grey;
+	-moz-box-shadow: 4px 4px 8px grey;
+	box-shadow: 4px 4px 8px grey;
 }
-
+.circular.noe {
+	background: url(../images/Profils/noe.jpg) no-repeat center center;
+	background-size: 150%;
+}
+.circular.christian {
+	background: url(../images/Profils/christian.jpg) no-repeat center center;
+	background-size: 150%;
+}
 /* END COMPONENTS */

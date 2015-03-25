@@ -1,8 +1,8 @@
 ﻿$(document).ready(function(){	
-	$(".profil").hide();
 	
 	// smooth scroll function
 	$('a[href="#secondPage"]').on('click',function(e) {
+		$(".profil").hide();
 		e.preventDefault();
 
 		var target = this.hash,
