@@ -1,0 +1,90 @@
+﻿/* FONTS */
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto.ttf);
+}
+
+/* END FONT */
+
+/* COMPONENTS */
+.article img.th {
+	background-color: black
+}
+.article img.th:hover {
+	opacity: 1;
+}
+#firstPage {
+	background: url(../images/header.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+#secondPage {
+	background: url(../images/pic01.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+.background {
+	height: 100vh;
+}
+.verticalAlign {
+	margin-top: 30vh;
+}
+.articleAlign {
+	margin-top: 10vh;
+
+}
+h1.subheader.text-center.title {
+	font-size: 5em;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+h1.subheader.text-center {
+	margin: 5vh auto 5vh auto;
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+h1.subheader.text-center strong {
+	color: rgb(195,195,195);
+}
+h3.subheader.text-center {
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+.arrowContainer {
+	position: absolute;
+	margin-top: 15vh;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+}
+a.button.radius.arrowLink {
+	background-color: transparent;
+	border: 1px solid white;
+	transition: 0.8s;
+}
+a.button.radius.arrowLink:hover {
+	background-color: rgb(195,195,195);
+}
+i.fa.fa-arrow-down.fa-2x {
+	color: white;
+}
+
+img[alt="Profil"] {
+	border-radius: 50%;
+	border: 1px solid transparent;
+	width: 150px;
+	height: 160px;
+	box-shadow: 6px 6px 8px grey;
+	margin-bottom: 5vh;
+}
+
+/* END COMPONENTS */
